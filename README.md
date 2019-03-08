@@ -10,15 +10,15 @@ Inspired by Osvaldas Valutis's 2018 CSS-Tricks article [Container-Adapting Tabs 
 
 On narrow viewports when there is not enough room to display all of the tabs, move them to an overflow menu:
 
-[!Overflowing tabs](small.png)
+![Overflowing tabs](small.png?raw=true)
 
-When there is enough room, just display all the tabs and hide the overflow menu:
+When there is enough room, just display the tabs and hide the overflow menu:
 
-[!Non-overflowing tabs](big.png)
+![Non-overflowing tabs](big.png?raw=true)
 
 ## Usage
 
-This is just a demo. If you'd like to use this in your own project, feel free to copy the source (copy the whole "src/DynamicTabs" directory), or create an issue and I might be able to publish it on NPM.
+This is just a demo. If you'd like to use this in your own project, feel free to copy the source (copy the whole "src/DynamicTabs" directory), or create an issue and I might be able to publish it to NPM.
 
 To use it, just wrap it around some elements of any type:
 
@@ -60,7 +60,7 @@ Each component can be switched-out with your own by passing it into the componen
 
 ```
 <DynamicTabs components={{MenuButton: CustomMenuButton}}>
-    {...images}
+    {...elements}
 </DynamicTabs>
 ```
 
