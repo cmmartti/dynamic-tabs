@@ -2,7 +2,7 @@
 
 A polished demo of a tab bar for React that automatically shifts extra tabs to an overflow menu when necessary.
 
-View a live [demo](https://github.com/cmmartti/dynamic-tabs).
+View a live [demo](https://cmmartti.github.io/dynamic-tabs/).
 
 Inspired by Osvaldas Valutis's 2018 CSS-Tricks article [Container-Adapting Tabs With "More" Button](https://css-tricks.com/container-adapting-tabs-with-more-button/).
 
