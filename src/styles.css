@@ -1,0 +1,13 @@
+body {
+    margin: 0;
+    font-family: Georgia;
+    border: 3px solid saddlebrown;
+    height: 100%;
+}
+html {
+    height: 100%;
+    box-sizing: border-box;
+}
+html * {
+    box-sizing: border-box;
+}
